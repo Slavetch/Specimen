@@ -214,7 +214,7 @@ footer h4{
 	margin: 0 auto;
 	display: grid;
 	grid-template-columns: 40% 32% 23%;
-	grid-column-gap: 3px;
+	grid-column-gap: 3%;
 }
 /*-------------------------About us---------------------------*/
 
@@ -362,7 +362,7 @@ footer h4{
 		margin: 0 auto;
 		display: grid;
 		grid-template-columns: auto;
-		grid-gap: 3%;
+		grid-gap: 3px;
 	}
 }
 
