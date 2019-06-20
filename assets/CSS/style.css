@@ -284,8 +284,7 @@ footer h4{
 	background: #000;
 }
 .footer-menu .main-menu{
-	display: flex;
-	justify-content: center;
+	display: grid;
 }
 .footer-menu a{
 	color: #fff;
