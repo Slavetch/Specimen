@@ -364,6 +364,13 @@ footer h4{
 		grid-template-columns: auto;
 		grid-gap: 3px;
 	}
+	.about-us a{
+		margin-bottom: 25px;
+	}
+	.Social-Connecting{
+		margin-top: 45px;
+		margin-bottom: 25px;
+	}
 }
 
 
@@ -432,11 +439,11 @@ footer h4{
 	}
 	.top-slide h2 {
     	font-size: 32px;
-    }
-    .top-slide p {
+    	}
+    	.top-slide p {
 	    font-size: 16px;     
 	}
-    .specialize-container p {
+   	.specialize-container p {
    		font-size: 16px;
 	}
 	.about-us{
