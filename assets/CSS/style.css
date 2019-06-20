@@ -284,8 +284,8 @@ footer h4{
 	background: #000;
 }
 .footer-menu .main-menu{
-	display: grid;
-	right: 0;
+	display: flex;
+    	justify-content: center;
 }
 .footer-menu a{
 	color: #fff;
@@ -455,5 +455,9 @@ footer h4{
 	}
 	footer .main-menu li{
 		text-align: center;	
+	}
+	.footer-menu .main-menu{
+		display: grid;
+		right: 0;
 	}
 }
