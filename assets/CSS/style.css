@@ -206,14 +206,15 @@ footer{
 }
 footer h4{
 	font-size: 18px;
-	margin-bottom: 23px;
+	margin-bottom: 20px;
+	margin-top: 20px;
 }
 .footer-container{
 	width: 90%;
 	margin: 0 auto;
 	display: grid;
 	grid-template-columns: 40% 32% 23%;
-	grid-column-gap: 3%;
+	grid-column-gap: 3px;
 }
 /*-------------------------About us---------------------------*/
 
