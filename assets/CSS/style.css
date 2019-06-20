@@ -285,6 +285,7 @@ footer h4{
 }
 .footer-menu .main-menu{
 	display: grid;
+	right: 0;
 }
 .footer-menu a{
 	color: #fff;
@@ -451,5 +452,8 @@ footer h4{
 	    grid-template-columns: 1fr;
 	    margin: 0 auto;
 	    text-align: center;
+	}
+	footer .maim-menu li{
+		text-align: center;	
 	}
 }
