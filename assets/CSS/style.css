@@ -206,7 +206,8 @@ footer{
 }
 footer h4{
 	font-size: 18px;
-	margin-bottom: 23px;
+	margin-bottom: 20px;
+	margin-top: 20px;
 }
 .footer-container{
 	width: 90%;
@@ -233,6 +234,8 @@ footer h4{
 /*----------------------Latest tweets-------------------------------*/
 .tweets p{
 	margin-top: 30px;
+	display: flex;
+	justify-content:space-around;
 }
 .tweets img{
 	background: #fff;
@@ -282,7 +285,7 @@ footer h4{
 }
 .footer-menu .main-menu{
 	display: flex;
-	justify-content: center;
+    	justify-content: center;
 }
 .footer-menu a{
 	color: #fff;
@@ -355,11 +358,18 @@ footer h4{
 		width: 98%;
  	}
  	.footer-container{
-		width: 98%;
+		width: 91%;
 		margin: 0 auto;
 		display: grid;
 		grid-template-columns: auto;
-		grid-gap: 3%;
+		grid-gap: 3px;
+	}
+	.about-us a{
+		margin-bottom: 25px;
+	}
+	.Social-Connecting{
+		margin-top: 45px;
+		margin-bottom: 25px;
 	}
 }
 
@@ -404,7 +414,7 @@ footer h4{
 	.main-menu{
 		position: relative;
 		top: 0px;
-		right: 21px;
+		right: 40px;
 	}
 	.specialize-cards {
 	    display: flex;
@@ -429,11 +439,11 @@ footer h4{
 	}
 	.top-slide h2 {
     	font-size: 32px;
-    }
-    .top-slide p {
+    	}
+    	.top-slide p {
 	    font-size: 16px;     
 	}
-    .specialize-container p {
+   	.specialize-container p {
    		font-size: 16px;
 	}
 	.about-us{
@@ -442,5 +452,12 @@ footer h4{
 	    grid-template-columns: 1fr;
 	    margin: 0 auto;
 	    text-align: center;
+	}
+	footer .main-menu li{
+		text-align: center;	
+	}
+	.footer-menu .main-menu{
+		display: grid;
+		right: 0;
 	}
 }
